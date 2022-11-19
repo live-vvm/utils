@@ -62,5 +62,3 @@ else
   adjust_java_home /etc/profile.d/jdk.csh  /usr/lib/jvm/$folder/
   echo "After logout/login, JAVA_HOME should reflect the new value."
 fi
-
-# set also JAVA-HO<E and others in /etc/profile.d/jdk.sh and /etc/profile.d/jdk.csh if the files exists
